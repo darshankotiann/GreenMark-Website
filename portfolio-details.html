@@ -70,7 +70,7 @@
             <div class="container-fluid clearfix">
               <!-- Website Logo -->
               <div class="logo-header mostion logo-dark" style="width: 240px">
-                <a href=index.html"
+                <a href="index.html"
                   ><img
                     src="images/logos/GM-LOGO_type4.png"
                     alt=""
@@ -91,57 +91,18 @@
                 <span></span>
                 <span></span>
               </button>
-              <!-- Extra Nav -->
-              <!-- <div class="extra-nav">
-                <div class="extra-cell">
-                  <div class="extra-icon-box">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h6 class="title">15/B Miranda House New York,US</h6>
-                  </div> -->
-              <!-- Quik Search -->
-              <!-- <div class="search-inhead">
-                    <div class="dz-quik-search">
-                      <form action="#">
-                        <input
-                          name="search"
-                          value=""
-                          type="text"
-                          class="form-control"
-                          placeholder="Search"
-                        />
-                        <span id="quik-search-remove"
-                          ><i class="ti-close"></i
-                        ></span>
-                      </form>
-                    </div>
-                    <a
-                      class="search-link"
-                      id="quik-search-btn"
-                      href="javascript:void(0);"
-                    >
-                      <i class="flaticon-loupe"></i>
-                    </a>
-                  </div>
-                  <div class="menu-btn navicon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                </div>
-              </div> -->
-              <!-- Nav -->
               <div
                 class="header-nav navbar-collapse collapse justify-content-end"
                 id="navbarNavDropdown"
               >
                 <div class="logo-header">
-                  <a href=index.html"
+                  <a href=index.html
                     ><img src="images/logo.png" alt=""
                   /></a>
                 </div>
                 <ul class="nav navbar-nav navbar navbar-left">
                   <li class="active">
-                    <a href=index.html">Home</a>
+                    <a href="index.html">Home</a>
                     <!-- <ul class="sub-menu">
                       <li><a href="index-2.html">Home 1</a></li>
                       <li><a href="index-3.html">Home 2</a></li>
@@ -162,7 +123,7 @@
                   <li class="sub-menu-down">
                     <a href="allportfolio.html">Portfolio</a>
                     <!-- <ul class="sub-menu">
-                      <li><a href=index.html">Portfolio</a></li>
+                      <li><a href="index.html">Portfolio</a></li>
                       <li>
                         <a href="portfolio-details.html">Portfolio Details</a>
                       </li>
@@ -259,7 +220,7 @@
             <div class="icon-content">
               <h5 class="tilte">Call Now</h5>
               <p class="m-b0">
-                +91 123 456 7890,<br />
+                +91 8050482380,<br />
                 +91 987 654 3210
               </p>
             </div>
@@ -292,17 +253,17 @@
         <div class="slidearea bannerside">
           <div class="side-contact-info">
             <ul>
-              <li><i class="fas fa-phone-alt"></i> +91 123 456 7890</li>
+              <li><i class="fas fa-phone-alt"></i> +91 8050482380</li>
               <li><i class="fas fa-envelope"></i> Visvainfo@gmail.com</li>
             </ul>
           </div>
           <div
             class="dz-bnr-inr style-1 overlay-left"
-            style="background-image: url(images/banner/bnr7.jpg)"
+            id="bgImg"
           >
             <div class="container-fluid">
               <div class="dz-bnr-inr-entry">
-                <h1>Work Title</h1>
+                <h1 id="service-label">Loading...</h1>
               </div>
             </div>
           </div>
@@ -326,23 +287,12 @@
                 data-aos-duration="1000"
                 data-aos-delay="400"
               >
-                <h2 class="dz-title">
-                  Curabitur Commodo Eros Sit Amet Diam Dictum.
+                <h2 class="dz-title" id="title">
+                  Loading...
                 </h2>
-                <p>
-                  Pellentesque magna felis, dictum vitae ipsum dapibus, congue
-                  tempus ex. Praesent mi est, eleifend non pulvinar a, lobortis
-                  quis nulla. Vivamus at tortor eu nisi gravida sagittis. Duis
-                  vel nibh neque. Curabitur porta lorem tortor.
-                </p>
-                <p class="m-b30">
-                  Ut ac lobortis nisl, sit amet suscipit tortor. Aenean egestas
-                  consectetur felis quis lacinia. Donec a iaculis neque. Aliquam
-                  a mi at ex euismod lacinia. Etiam rutrum eu sem non
-                  ullamcorper. Donec pulvinar est diam, at mollis lectus
-                  sollicitudin id. Vestibulum viverra eu quam ut iaculis. In hac
-                  habitasse platea dictumst. In dignissim.
-                </p>
+               <div id="description">
+                Loading...
+               </div>
               </div>
               <!-- d-lg-block d-none -->
               <div
@@ -351,7 +301,7 @@
                 data-aos-duration="1000"
                 data-aos-delay="600"
               >
-                <img src="images/work/pic2.jpg" class="img-fluid" alt="" />
+                <img id="mainImg" src="images/work/pic2.jpg" class="img-fluid" alt="" />
               </div>
             </div>
           </div>
@@ -365,7 +315,7 @@
                 data-aos-duration="1000"
                 data-aos-delay="200"
               >
-                <img src="images/video/pic2-2.jpg" alt="" />
+                <img id="bgImg2" src="images/video/pic2-2.jpg" alt="" />
               </div>
               <div
                 class="col-lg-4 col-md-4 m-b30 aos-item"
@@ -375,15 +325,7 @@
               >
                 <div class="dz-box overlay style-1">
                   <div class="dz-media">
-                    <img src="images/services/pic1.jpg" alt="" />
-                  </div>
-                  <div class="dz-info">
-                    <span
-                      data-exthumbimage="images/services/pic1.jpg"
-                      data-src="images/services/pic1.jpg"
-                      class="view-btn lightimg"
-                      title="ARCHITECTURAL"
-                    ></span>
+                    <img id="img1" src="images/services/pic1.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -395,15 +337,7 @@
               >
                 <div class="dz-box overlay style-1">
                   <div class="dz-media">
-                    <img src="images/services/pic2.jpg" alt="" />
-                  </div>
-                  <div class="dz-info">
-                    <span
-                      data-exthumbimage="images/services/pic2.jpg"
-                      data-src="images/services/pic2.jpg"
-                      class="view-btn lightimg"
-                      title="ARCHITECTURAL"
-                    ></span>
+                    <img id="img2" src="images/services/pic2.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -415,15 +349,7 @@
               >
                 <div class="dz-box overlay style-1">
                   <div class="dz-media">
-                    <img src="images/services/pic3.jpg" alt="" />
-                  </div>
-                  <div class="dz-info">
-                    <span
-                      data-exthumbimage="images/services/pic3.jpg"
-                      data-src="images/services/pic3.jpg"
-                      class="view-btn lightimg"
-                      title="ARCHITECTURAL"
-                    ></span>
+                    <img id="img3" src="images/services/pic3.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -435,15 +361,7 @@
               >
                 <div class="dz-box overlay style-1">
                   <div class="dz-media">
-                    <img src="images/services/pic1.jpg" alt="" />
-                  </div>
-                  <div class="dz-info">
-                    <span
-                      data-exthumbimage="images/services/pic1.jpg"
-                      data-src="images/services/pic1.jpg"
-                      class="view-btn lightimg"
-                      title="ARCHITECTURAL"
-                    ></span>
+                    <img id="img4" src="images/services/pic1.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -455,15 +373,7 @@
               >
                 <div class="dz-box overlay style-1">
                   <div class="dz-media">
-                    <img src="images/services/pic2.jpg" alt="" />
-                  </div>
-                  <div class="dz-info">
-                    <span
-                      data-exthumbimage="images/services/pic2.jpg"
-                      data-src="images/services/pic2.jpg"
-                      class="view-btn lightimg"
-                      title="ARCHITECTURAL"
-                    ></span>
+                    <img id="img5" src="images/services/pic2.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -475,296 +385,14 @@
               >
                 <div class="dz-box overlay style-1">
                   <div class="dz-media">
-                    <img src="images/services/pic3.jpg" alt="" />
-                  </div>
-                  <div class="dz-info">
-                    <span
-                      data-exthumbimage="images/services/pic3.jpg"
-                      data-src="images/services/pic3.jpg"
-                      class="view-btn lightimg"
-                      title="ARCHITECTURAL"
-                    ></span>
+                    <img id="img6" src="images/services/pic3.jpg" alt="" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- <section class="content-inner-1">
-          <div class="container">
-            <div class="section-head style-1 text-center">
-              <h6 class="sub-title text-primary">OUR PORTFOLIOS</h6>
-              <h2 class="title">Our Latest Projects</h2>
-            </div>
-          </div>
-          <div class="container-fluid">
-            <div
-              class="swiper-container swiper-portfolio lightgallery aos-item"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="400"
-            >
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="dz-box overlay style-1 mt-5">
-                    <div class="dz-media">
-                      <img src="images/work/work-1/pic-1.jpg" alt="" />
-                    </div>
-                    <div class="dz-info">
-                      <span
-                        data-exthumbimage="images/work/work-1/pic-1.jpg"
-                        data-src="images/work/work-1/pic-1.jpg"
-                        class="view-btn lightimg"
-                        title="INTERIOR DESIGN"
-                      ></span>
-                      <h6 class="sub-title">INTERIOR DESIGN</h6>
-                      <h4 class="title m-b15">
-                        <a href="portfolio-details.html"
-                          >Modern House Interior <span>New York</span></a
-                        >
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="dz-box overlay style-1">
-                    <div class="dz-media">
-                      <img src="images/work/work-1/pic-2.jpg" alt="" />
-                    </div>
-                    <div class="dz-info">
-                      <span
-                        data-exthumbimage="images/work/work-1/pic-2.jpg"
-                        data-src="images/work/work-1/pic-2.jpg"
-                        class="view-btn lightimg"
-                        title="ARCHITECTURAL"
-                      ></span>
-                      <h6 class="sub-title">ARCHITECTURAL</h6>
-                      <h4 class="title m-b15">
-                        <a href="portfolio-details.html"
-                          >Residential Project, <span>Paris</span></a
-                        >
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="dz-box overlay style-1 mt-5">
-                    <div class="dz-media">
-                      <img src="images/work/work-1/pic-3.jpg" alt="" />
-                    </div>
-                    <div class="dz-info">
-                      <span
-                        data-exthumbimage="images/work/work-1/pic-3.jpg"
-                        data-src="images/work/work-1/pic-3.jpg"
-                        class="view-btn lightimg"
-                        title="INTERIOR DESIGN"
-                      ></span>
-                      <h6 class="sub-title">INTERIOR DESIGN</h6>
-                      <h4 class="title m-b15">
-                        <a href="portfolio-details.html"
-                          >Modern Family House, <span>Italy</span></a
-                        >
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="dz-box overlay style-1">
-                    <div class="dz-media">
-                      <img src="images/work/work-1/pic-4.jpg" alt="" />
-                    </div>
-                    <div class="dz-info">
-                      <span
-                        data-exthumbimage="images/work/work-1/pic-4.jpg"
-                        data-src="images/work/work-1/pic-4.jpg"
-                        class="view-btn lightimg"
-                        title="ARCHITECTURAL"
-                      ></span>
-                      <h6 class="sub-title">ARCHITECTURAL</h6>
-                      <h4 class="title m-b15">
-                        <a href="portfolio-details.html"
-                          >Residential Project, <span>Paris</span></a
-                        >
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-        <!-- Our Works -->
-        <section class="content-inner-1">
-          <div class="container">
-            <div class="row section-head-bx align-items-center">
-              <div class="col-md-8">
-                <div class="section-head style-1">
-                  <h6 class="sub-title text-primary">OUR PORTFOLIOS</h6>
-                  <h2 class="title">Our Latest Projects</h2>
-                </div>
-              </div>
-              <div class="col-md-4 text-start text-md-end mb-4 mb-md-0">
-                <a href="allportfolio.html" class="btn-link"
-                  >See All Projects <i class="fas fa-plus scale08"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="container-fluid">
-            <div
-              class="swiper-container swiper-portfolio lightgallery aos-item"
-              data-aos="fade-in"
-              data-aos-duration="1000"
-              data-aos-delay="400"
-            >
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="dz-box overlay style-1 mt-5">
-                    <div class="dz-media">
-                      <img src="images/work/work-1/pic-1.jpg" alt="" />
-                    </div>
-                    <div class="dz-info">
-                      <span
-                        data-exthumbimage="images/work/work-1/pic-1.jpg"
-                        data-src="images/work/work-1/pic-1.jpg"
-                        class="view-btn lightimg"
-                        title="INTERIOR DESIGN"
-                      ></span>
-                      <h6 class="sub-title">INTERIOR DESIGN</h6>
-                      <h4 class="title m-b15">
-                        <a href="portfolio-details.html"
-                          >Modern House Interior <span>New York</span></a
-                        >
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="dz-box overlay style-1">
-                    <div class="dz-media">
-                      <img src="images/work/work-1/pic-2.jpg" alt="" />
-                    </div>
-                    <div class="dz-info">
-                      <span
-                        data-exthumbimage="images/work/work-1/pic-2.jpg"
-                        data-src="images/work/work-1/pic-2.jpg"
-                        class="view-btn lightimg"
-                        title="ARCHITECTURAL"
-                      ></span>
-                      <h6 class="sub-title">ARCHITECTURAL</h6>
-                      <h4 class="title m-b15">
-                        <a href="portfolio-details.html"
-                          >Residential Project, <span>Paris</span></a
-                        >
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="dz-box overlay style-1 mt-5">
-                    <div class="dz-media">
-                      <img src="images/work/work-1/pic-3.jpg" alt="" />
-                    </div>
-                    <div class="dz-info">
-                      <span
-                        data-exthumbimage="images/work/work-1/pic-3.jpg"
-                        data-src="images/work/work-1/pic-3.jpg"
-                        class="view-btn lightimg"
-                        title="INTERIOR DESIGN"
-                      ></span>
-                      <h6 class="sub-title">INTERIOR DESIGN</h6>
-                      <h4 class="title m-b15">
-                        <a href="portfolio-details.html"
-                          >Modern Family House, <span>Italy</span></a
-                        >
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="dz-box overlay style-1">
-                    <div class="dz-media">
-                      <img src="images/work/work-1/pic-4.jpg" alt="" />
-                    </div>
-                    <div class="dz-info">
-                      <span
-                        data-exthumbimage="images/work/work-1/pic-4.jpg"
-                        data-src="images/work/work-1/pic-4.jpg"
-                        class="view-btn lightimg"
-                        title="ARCHITECTURAL"
-                      ></span>
-                      <h6 class="sub-title">ARCHITECTURAL</h6>
-                      <h4 class="title m-b15">
-                        <a href="portfolio-details.html"
-                          >Residential Project, <span>Paris</span></a
-                        >
-                      </h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="content-inner bg-secondary subscribe-area"
-            style="
-              background-image: url(images/background/bg2-1.png);
-              background-position: center;
-            "
-          >
-            <div class="container">
-              <div class="row subscribe-content">
-                <div
-                  class="col-lg-6 aos-item"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="200"
-                >
-                  <div class="section-head style-1 mb-0">
-                    <h6 class="sub-title text-primary">Contact Us</h6>
-                    <h2 class="title text-white">Get In Touch With Us !</h2>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-6 pt-2 aos-item text-end"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  data-aos-delay="400"
-                >
-                  <!-- <form
-                    class="dzSubscribe dz-subscription mt-3"
-                    action="https://visva.dexignzone.com/xhtml/script/mailchamp.php"
-                    method="post"
-                  >
-                    <div class="dzSubscribeMsg Msg dz-subscription-msg"></div>
-                    <div class="input-group">
-                      <input
-                        name="dzEmail"
-                        required="required"
-                        class="form-control"
-                        placeholder="Enter Your Email Address..."
-                        type="email"
-                      />
-                      <button
-                        name="submit"
-                        value="Submit"
-                        type="submit"
-                        class="btn btn-primary btn-rounded"
-                      >
-                        Subscribe Now <i class="m-l10 fas fa-plus scale08"></i>
-                      </button>s
-                    </div>
-                  </form> -->
-                  <a href="contact-us.html">
-                    <button class="btn btn-primary btn-rounded">
-                      Contact Now <i class="fas fa-arrow-right"></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
         <!-- End oF Our Works -->
       </div>
       <!-- Footer -->
@@ -809,7 +437,7 @@
                         <li><a href="index-2.html">Home</a></li>
                         <li><a href="about-us.html">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a href=index.html">Portfolio</a></li>
+                        <li><a href="index.html">Portfolio</a></li>
                         <li><a href="blog-grid.html">Blogs</a></li>
                         <li><a href="contact-us.html">Contact Us</a></li>
                         <li><a href="team.html">Team</a></li>
@@ -890,7 +518,65 @@
         <i class="fa fa-arrow-up"></i>
       </button>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
 
+  <script>
+
+const firebaseConfig = {
+   apiKey: "AIzaSyBEdY3S1jBFEeGNTXCtt72D8zKd6G50yWg",
+   authDomain: "greenmark-admin.firebaseapp.com",
+   projectId: "greenmark-admin",
+   storageBucket: "greenmark-admin.appspot.com",
+   messagingSenderId: "746283097286",
+   appId: "1:746283097286:web:f3b53c0167df1e9c2a4bc7"
+ };
+  const app=firebase.initializeApp(firebaseConfig);
+  const firestore=app.firestore();
+    let paramString =  window.location.href.split('?')[1];
+    let queryString = new URLSearchParams(paramString);
+    console.log(queryString.get('id'))
+    var docRef = firestore.collection("services").doc(queryString.get('id'));
+    docRef.get().then((doc) => {
+        if (doc.exists) {
+            console.log("Document data:", doc.data());
+            const mainImg=document.getElementById('mainImg');
+            const bgImg=document.getElementById('bgImg');
+            const bgImg2=document.getElementById('bgImg2');
+            const img1=document.getElementById('img1');
+            const img2=document.getElementById('img2');
+            const img3=document.getElementById('img3');
+            const img4=document.getElementById('img4');
+            const img5=document.getElementById('img5');
+            const img6=document.getElementById('img6');
+            const title=document.getElementById('title');
+            const description=document.getElementById('description');
+            const service=document.getElementById('service-label');
+
+            mainImg.src=doc.data().mainImg;
+            bgImg.style.backgroundImage=`url('${doc.data().bgImg}')`;
+            bgImg2.src=doc.data().bgImg;
+            img1.src=doc.data().img1;
+            img2.src=doc.data().img2;
+            img3.src=doc.data().img3;
+            img4.src=doc.data().img4;
+            img5.src=doc.data().img5;
+            img6.src=doc.data().img6;
+            title.innerText=doc.data().title;
+            description.innerHTML=doc.data().description;
+            service.innerText=doc.data().services.label;
+
+        } else {
+            // doc.data() will be undefined in this case
+            console.log("No such document!");
+        }
+    }).catch((error) => {
+        console.log("Error getting document:", error);
+    });
+
+
+
+  </script>
     <!-- JAVASCRIPT FILES ========================================= -->
     <script src="js/jquery.min.js"></script>
     <!-- JQUERY.MIN JS -->

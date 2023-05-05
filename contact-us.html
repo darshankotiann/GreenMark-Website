@@ -61,7 +61,7 @@
             <div class="container-fluid clearfix">
               <!-- Website Logo -->
               <div class="logo-header mostion logo-dark" style="width: 240px">
-                <a href=index.html"
+                <a href="index.html"
                   ><img
                     src="images/logos/GM-LOGO_type4.png"
                     alt=""
@@ -114,13 +114,13 @@
                 id="navbarNavDropdown"
               >
                 <div class="logo-header">
-                  <a href=index.html"
+                  <a href="index.html"
                     ><img src="images/logo.png" alt=""
                   /></a>
                 </div>
                 <ul class="nav navbar-nav navbar navbar-left">
                   <li>
-                    <a href=index.html">Home</a>
+                    <a href="index.html">Home</a>
                     <!-- <ul class="sub-menu">
 						  <li><a href="index-2.html">Home 1</a></li>
 						  <li><a href="index-3.html">Home 2</a></li>
@@ -141,7 +141,7 @@
                   <li>
                     <a href="allportfolio.html">Portfolio</a>
                     <!-- <ul class="sub-menu">
-						  <li><a href=index.html">Portfolio</a></li>
+						  <li><a href="index.html">Portfolio</a></li>
 						  <li>
 							<a href="portfolio-details.html">Portfolio Details</a>
 						  </li>
@@ -213,7 +213,7 @@
       <div class="contact-sidebar">
         <div class="contact-box">
           <div class="logo-header mostion logo-dark" style="width: 240px">
-            <a href=index.html"
+            <a href="index.html"
               ><img src="images/logos/GM-LOGO_type4.png" alt="" class="w-100"
             /></a>
           </div>
@@ -242,7 +242,7 @@
             <div class="icon-content">
               <h5 class="tilte">Call Now</h5>
               <p class="m-b0">
-                +91 123 456 7890,<br />
+                +91 8050482380,<br />
                 +91 987 654 3210
               </p>
             </div>
@@ -276,7 +276,7 @@
         <!-- <div class="slidearea bannerside">
 			<div class="side-contact-info">
 				<ul>
-					<li><i class="fas fa-phone-alt"></i> +91 123 456 7890</li>
+					<li><i class="fas fa-phone-alt"></i> +91 8050482380</li>
 					<li><i class="fas fa-envelope"></i> Visvainfo@gmail.com</li>
 				</ul>
 			</div>
@@ -302,14 +302,9 @@
           <div class="container text-center">
             <h1>Get in Touch With Us</h1>
             <p class="text-justify">
-              Ut ac lobortis nisl, sit amet suscipit tortor. Aenean egestas
-              consectetur felis quis lacinia. Donec a iaculis neque. Aliquam a
-              mi at ex euismod lacinia. Etiam rutrum eu sem non ullamcorper.
-              Donec pulvinar est diam, at mollis lectus sollicitudin id.
-              Vestibulum viverra eu quam ut iaculis. In hac habitasse platea
-              dictumst. In dignissim. Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Nemo incidunt saepe ea perspiciatis voluptas rem
-              architecto tempora quo corrupti est.
+              Together we can build your dream structure with a Green Concept of sustainable living.
+              Be a part in transforming your Lifestyle.
+              Let us contribute to the Nature
             </p>
           </div>
         </section>
@@ -332,7 +327,7 @@
                   <div class="icon-content">
                     <h4 class="tilte m-b10">Call Now</h4>
                     <p class="m-b0">
-                      +91 123 456 7890,<br />
+                      +91 8050482380,<br />
                       +91 987 654 3210
                     </p>
                   </div>
@@ -353,8 +348,7 @@
                   <div class="icon-content">
                     <h4 class="tilte m-b10">Location</h4>
                     <p class="m-b0">
-                      info@gmail.com,<br />
-                      services@gmail.com
+      Baldwins Road, Koramangala, Bangalore-560030
                     </p>
                   </div>
                 </div>
@@ -372,10 +366,9 @@
                     ></span>
                   </div>
                   <div class="icon-content">
-                    <h4 class="tilte m-b10">Email Now</h4>
+                    <h4 class="tilte m-b10">Location</h4>
                     <p class="m-b0">
-                      15/B Miranda House,<br />
-                      New York, US
+                      Baldwins Road, Koramangala,<br/> Bangalore-560030
                     </p>
                   </div>
                 </div>
@@ -426,8 +419,9 @@
                           type="text"
                           class="form-control"
                           required
-                          name="dzFirstName"
-                          placeholder="First Name"
+                          name=""
+                          placeholder="Full Name"
+                          id="name"
                         />
                       </div>
                     </div>
@@ -439,6 +433,7 @@
                           required
                           name="dzEmail"
                           placeholder="Email"
+                          id="email"
                         />
                       </div>
                     </div>
@@ -450,6 +445,7 @@
                           required
                           name="dzPhoneNumber"
                           placeholder="Phone No."
+                          id="phoneno"
                         />
                       </div>
                     </div>
@@ -460,6 +456,7 @@
                           rows="5"
                           class="form-control"
                           placeholder="Message"
+                          id="message"
                         ></textarea>
                       </div>
                     </div>
@@ -486,6 +483,7 @@
                         type="submit"
                         value="submit"
                         class="btn btn-primary btn-rounded"
+                        onclick="submitForm()"
                       >
                         SUBMIT <i class="m-l10 fas fa-caret-right"></i>
                       </button>
@@ -540,7 +538,7 @@
                         <li><a href="index-2.html">Home</a></li>
                         <li><a href="about-us.html">About Us</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a href=index.html">Portfolio</a></li>
+                        <li><a href="index.html">Portfolio</a></li>
                         <li><a href="blog-grid.html">Blogs</a></li>
                         <li><a href="contact-us.html">Contact Us</a></li>
                         <li><a href="team.html">Team</a></li>
@@ -621,6 +619,37 @@
         <i class="fa fa-arrow-up"></i>
       </button>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script>
+   const firebaseConfig = {
+     apiKey: "AIzaSyBEdY3S1jBFEeGNTXCtt72D8zKd6G50yWg",
+     authDomain: "greenmark-admin.firebaseapp.com",
+     projectId: "greenmark-admin",
+     storageBucket: "greenmark-admin.appspot.com",
+     messagingSenderId: "746283097286",
+     appId: "1:746283097286:web:f3b53c0167df1e9c2a4bc7"
+   };
+    const app=firebase.initializeApp(firebaseConfig);
+    const firestore=app.firestore();
+  
+  
+    const submitForm = ()=>{
+      const name=document.getElementById("name").value;
+    const email=document.getElementById("email").value;
+    const phoneno=document.getElementById("phoneno").value;
+    const message=document.getElementById("message").value;
+      firestore
+      .collection("Responses")
+      .add({
+       name,email,phoneno,message
+      }).then(()=>{
+        alert("Response Stored")
+      }).catch((err)=>{
+        alert(err);
+      })
+    }
+    </script>
     <!-- JAVASCRIPT FILES ========================================= -->
     <script src="js/jquery.min.js"></script>
     <!-- JQUERY.MIN JS -->
